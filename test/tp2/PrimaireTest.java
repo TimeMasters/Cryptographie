@@ -43,14 +43,18 @@ public class PrimaireTest
     
     @Test
     public void testDecompPrime()
-    {
-        HashMap <Integer,Integer> decompPrime = Primaire.decompose_primaire(54);
+    {   //                                                                  N
+        System.out.println("Decomposition primaire de N");
+        HashMap <Integer,Integer> decompPrime = Primaire.decompose_primaire(55);
         System.out.println(decompPrime.toString());
+        
     }
     
     @Test
     public void testPhi()
     {
-        System.out.println(Primaire.euler(120));
+        System.out.println("Fhi de N");
+        //Fhi(N)                           N
+        System.out.println(Primaire.euler(55));
     }
 }
